@@ -1,20 +1,24 @@
-# Habit Tracker – Phase 1 (MVP)
+# Mini Habit Tracker – Phase 1 (MVP)
 
-A simple **Habit Tracker + Goal Scheduler** built with Django & Django REST Framework.  
-This project is designed for personal use: define **1-year / 5-year / 10-year goals**, create tasks linked to goals, and track progress daily.
+A simple **Habit Tracker + Goal Scheduler** built with React.
+Users can create daily tasks, earn mileage points, and redeem rewards based on progress.
 
 ---
 
 ## 🚀 Tech Stack
-
-- **Backend**: Django 5.x + Django REST Framework
-- **Database**: SQLite (default)  
-  > Can be switched to PostgreSQL later
-- **Auth**: Django built-in authentication (admin panel enabled)
-- **API**: RESTful endpoints with DRF Router
-- **Frontend**: DRF browsable API (React/Next.js planned in future phases)
+- Frontend: React (with hooks & localStorage persistence)
+- Styling: Inline CSS (Tailwind later)
+- State Management: React hooks
+- Database (Planned): PostgreSQL
 
 ---
+
+## Future Plans
+- Long-term goal management (monthly / quarterly tracking)
+- User authentication
+- Cloud DB integration (PostgreSQL or Firebase)
+- Cross-device sync
+- Responsive mobile app version (React Native)
 
 ## 📂 Project Structure
 
